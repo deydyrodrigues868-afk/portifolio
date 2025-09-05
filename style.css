@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Libertinus+Serif+Display&family=Story+Script&display=swap');
+
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+body {
+   height: 0vh;
+   box-sizing:border-box;
+   background-color: rgb(247, 191, 231); 
+   color: rgb(184, 15, 141);
+   
+
+}
+.cabecalho{
+    padding: 2% 0% 0% 10%;
+
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+
+.cabecalho__menu__link{
+    
+    font-family:"Imperial Script", cursive;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:blueviolet;
+    text-decoration: none;
+    
+}
+
+.cabecalho__menu__link:hover{
+ background-color: whitesmoke;
+}
+
+p {
+    color:black;
+}
+
+a{
+    color:white;
+    font-size:2.20rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+    .titulo-destaque {
+        color: rgb(103, 5, 122);
+
+    }
+    .apresentacao{
+        padding:5% 15%;
+        display: flex;
+        align-items:center;
+        justify-content: space-evenly;
+        gap: 82px;
+    }
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.apresentacao__conteudo__titulo{
+    font-size:4rem;
+    font-family:"Imperial Script", cursive;
+    
+}
+
+    
+.apresentacao__conteudo__tema{
+    font-size: 2rem;
+    font-family: "Imperial Script", cursive;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 2.20rem;
+    font-family: "Imperial Script", cursive
+}
+
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    color:  rgb(103, 5, 122);
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-size:2.80rem;
+}
+.apresentacao__links__navegacao{
+    /* background-color: blueviolet; */
+    border: 2px solid rgb(184, 15, 141);
+    width: 378px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px 0;
+    text-decoration:none;
+    font-family: "Imperial Script", cursive
+}
+.apresentacao__links__navegacao:hover {
+    background-color: rgb(163, 97, 134);
+}
+
+.apresentacao__imagem{
+    width: 45%;
+}
+
+.rodape{
+    background-color: rgb(103, 5, 122)
+    
+}
+
+@media(max-width:px){
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column;
+        padding:5%;
+    }
+    .apresentacao__conteudo{
+        width: 100%;
+    }
+
+}
